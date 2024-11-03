@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .profile-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Profile Card Styles */
+  .profile-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .profile-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .profile-card h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #2c3e50;
+  }
+  
+  .profile-card p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #34495e;
+  }
+  
+  .profile-card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    color: #ffffff;
+    background-color: #3498db;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .profile-card a:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Profile Detail Page Styles */
+  .profile-detail {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-detail h1 {
+    color: #2c3e50;
+  }
+  
+  .profile-detail p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    color: #34495e;
+  }
+  
+  /* Media Query for Tablets and Mobile */
+  @media (max-width: 768px) {
+    .profile-list {
+      padding: 10px;
+    }
+  
+    .profile-card {
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    .profile-detail {
+      padding: 15px;
+    }
+  }
+  /* Navbar styles */
+nav {
+    background-color: #3498db; /* Navbar background color */
+    padding: 10px 20px; /* Padding around the navbar */
+    text-align: center; /* Center align the links */
+  }
+  
+  nav a {
+    color: #ffffff; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 15px; /* Spacing between links */
+    font-size: 1.2rem; /* Font size for links */
+  }
+  
+  nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
